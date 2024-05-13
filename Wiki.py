@@ -7,4 +7,4 @@ if (answer == 'Да' or answer == 'да' or answer == 'yes' or answer == 'Yes'):
     print('Держи!')
     wd.randomwiki()
 else:
-    print('Ну и иди нахуй')
+    print('Тогда до новых встреч!')
