@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import Hello as hi
 
-
-print('Привет, хочешь получить случайную статью с Википедии?')
+hi.hello()
 answer = input()
 if (answer == 'Да' or answer == 'да' or answer == 'yes' or answer == 'Yes'):
     print('Держи!')
