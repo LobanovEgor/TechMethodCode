@@ -3,7 +3,7 @@ import WebDriver as wd
 
 hi.hello()
 yes = ['Да', 'да', 'YES', 'yes', 'Yes', 'ДА']
-if (input() in yes):
+if ('да' in yes):
     print('Держи')
     wd.randomwiki()
 else:
