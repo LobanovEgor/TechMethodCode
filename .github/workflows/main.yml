@@ -11,4 +11,5 @@ jobs:
           - name: Run a test
             run: | 
               pip install pytest
+              pip install selenium
               pytest

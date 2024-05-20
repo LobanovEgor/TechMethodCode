@@ -1,5 +1,5 @@
 import pytest
-import Wiki
+from Code import Wiki
 
 
 def test_yes():
