@@ -1,2 +1,2 @@
 def hello():
-    print('Привет, хочешь получить случайную страницу с Вики?')
+    print('Hi, do you want to get random article from wiki?')
