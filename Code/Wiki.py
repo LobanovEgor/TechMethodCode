@@ -1,9 +1,11 @@
-import Hello as hi
 import WebDriver as wd
 
-hi.hello()
+
+print('Hi, do you want to get random article from wiki?')
+
 yes = ['Да', 'да', 'YES', 'yes', 'Yes', 'ДА']
-if ('да' in yes):
+
+if (input() in yes):
     print('Catch it!')
     wd.randomwiki()
 else:

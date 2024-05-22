@@ -8,9 +8,11 @@ def randomwiki():
     browser = find_default_browser()
     driver_class = getattr(webdriver, browser)
     driver = driver_class()
+
     driver.get('https://ru.wikipedia.org/')
     element = driver.find_element(By.LINK_TEXT, 'Случайная статья')
     element.click()
+
     isClosed = False
     while isClosed == False:
         try:
