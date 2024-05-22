@@ -11,8 +11,14 @@ def randomwiki():
     driver.get('https://ru.wikipedia.org/')
     element = driver.find_element(By.LINK_TEXT, 'Случайная статья')
     element.click()
-    while (True):
-        pass
+    isClosed = False
+    while isClosed == False:
+        try:
+            driver.title
+        except RuntimeError:
+            isClosed = True
+
+
 def find_default_browser():
     osPlatform = platform.system()
 
